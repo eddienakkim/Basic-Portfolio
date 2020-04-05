@@ -1,0 +1,71 @@
+head {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+}
+header {
+    display: block;
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+
+.right {
+    margin-right: 135px;
+}
+
+.white {
+    background-color: white;
+}
+ul {
+    list-style: none;
+    float: right;
+}
+
+li {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    display: inline;
+    padding-left: 10px;
+    overflow: auto;
+    margin-right: 20px;
+}
+
+.about {
+    display: block;
+    clear: both;
+    background-color: white;
+    width: 960px;
+    margin-left: 200px;
+    padding: 30px;
+}
+
+p {
+    font-size: larger;
+}
+img {
+    width: 180px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: block;
+}
+body {
+    background: url("../images/double-bubble.png")
+}
+
+h2 {
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-size: xx-large;
+}
