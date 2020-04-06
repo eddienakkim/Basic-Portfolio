@@ -1,31 +1,39 @@
-head {
-    background-color: white;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 75px;
+html, body {
+    margin: 0;
+    height: 100%;
 }
+
 header {
-    display: block;
-    background-color: #4aaaa5;
-    float: left;
+    display: absolute;
+    margin: 0 auto;
+    background-color: #ffffff;
     color: white;
+    height: 100px;
+    border-color: #cccccc;
+}
+
+h1 {
+    display: absolute;
+    background-color:#4aaaa5;
     width: 250px;
-    height: 75px;
+    height: 100px;
+    margin-left: 300px;
     text-align: center;
     font-weight: bolder;
-    margin-left: 200px;
+    line-height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .right {
-    margin-right: 135px;
+    margin-right: 350px;
 }
 
-.white {
-    background-color: white;
+nav {
+    display: inline;
+    float: right;
 }
+
 ul {
     list-style: none;
-    float: right;
 }
 
 li {
@@ -34,7 +42,6 @@ li {
     line-height: 75px;
     display: inline;
     padding-left: 10px;
-    overflow: auto;
     margin-right: 20px;
 }
 
@@ -43,7 +50,7 @@ li {
     clear: both;
     background-color: white;
     width: 960px;
-    margin-left: 200px;
+    margin-left: 300px;
     padding: 30px;
 }
 
@@ -59,13 +66,29 @@ img {
 
 section {
     display: block;
+    border-color: #dddddd;
+    margin-bottom: 50px;
 }
 body {
-    background: url("../images/double-bubble.png")
+    background: url("../images/contact.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 h2 {
     color: #4aaaa5;
     font-weight: bolder;
     font-size: xx-large;
+}
+
+
+
+footer {
+    background-color: #666666;
+    height: 80px;
+    color: lightgray;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 130px;
+    border-top: 8px solid #4aaaa5;
 }
