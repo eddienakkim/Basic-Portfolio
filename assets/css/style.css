@@ -170,8 +170,8 @@ a {
 
   .three {
     position: absolute;
-    bottom: 160px;
-    left: 210px;
+    bottom: 270px;
+    left: 330px;
     background-color:#4aaaa5;
     color: white;
     padding-left: 20px;
@@ -182,8 +182,8 @@ a {
 
   .four {
     position: absolute;
-    bottom: 160px;
-    left: 430px;
+    bottom: 270px;
+    left: 550px;
     background-color:#4aaaa5;
     color: white;
     padding-left: 20px;
@@ -194,8 +194,8 @@ a {
 
   .five {
     position: absolute;
-    bottom: -80px;
-    left: 210px;
+    bottom: 35px;
+    left: 330px;
     background-color:#4aaaa5;
     color: white;
     padding-left: 20px;
